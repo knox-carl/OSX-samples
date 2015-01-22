@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23FE1E21A705BFD001AE62F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23FE1E11A705BFD001AE62F /* AppDelegate.swift */; };
+		E23FE1E41A705BFD001AE62F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23FE1E31A705BFD001AE62F /* Images.xcassets */; };
+		E23FE1E71A705BFD001AE62F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E23FE1E51A705BFD001AE62F /* MainMenu.xib */; };
+		E23FE1F31A705BFD001AE62F /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23FE1F21A705BFD001AE62F /* MadLibsTests.swift */; };
+		E23FE1FE1A705C44001AE62F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23FE1FC1A705C44001AE62F /* RootViewController.swift */; };
+		E23FE1FF1A705C44001AE62F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E23FE1FD1A705C44001AE62F /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E23FE1ED1A705BFD001AE62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23FE1D41A705BFD001AE62F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23FE1DB1A705BFD001AE62F;
+			remoteInfo = MadLibs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E23FE1DC1A705BFD001AE62F /* MadLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23FE1E01A705BFD001AE62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23FE1E11A705BFD001AE62F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E23FE1E31A705BFD001AE62F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E23FE1E61A705BFD001AE62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E23FE1EC1A705BFD001AE62F /* MadLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23FE1F11A705BFD001AE62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23FE1F21A705BFD001AE62F /* MadLibsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsTests.swift; sourceTree = "<group>"; };
+		E23FE1FC1A705C44001AE62F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E23FE1FD1A705C44001AE62F /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23FE1D91A705BFD001AE62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23FE1E91A705BFD001AE62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23FE1D31A705BFD001AE62F = {
+			isa = PBXGroup;
+			children = (
+				E23FE1DE1A705BFD001AE62F /* MadLibs */,
+				E23FE1EF1A705BFD001AE62F /* MadLibsTests */,
+				E23FE1DD1A705BFD001AE62F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E23FE1DD1A705BFD001AE62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23FE1DC1A705BFD001AE62F /* MadLibs.app */,
+				E23FE1EC1A705BFD001AE62F /* MadLibsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23FE1DE1A705BFD001AE62F /* MadLibs */ = {
+			isa = PBXGroup;
+			children = (
+				E23FE1E11A705BFD001AE62F /* AppDelegate.swift */,
+				E23FE1E31A705BFD001AE62F /* Images.xcassets */,
+				E23FE1E51A705BFD001AE62F /* MainMenu.xib */,
+				E23FE1DF1A705BFD001AE62F /* Supporting Files */,
+				E23FE1FC1A705C44001AE62F /* RootViewController.swift */,
+				E23FE1FD1A705C44001AE62F /* RootViewController.xib */,
+			);
+			path = MadLibs;
+			sourceTree = "<group>";
+		};
+		E23FE1DF1A705BFD001AE62F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23FE1E01A705BFD001AE62F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E23FE1EF1A705BFD001AE62F /* MadLibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23FE1F21A705BFD001AE62F /* MadLibsTests.swift */,
+				E23FE1F01A705BFD001AE62F /* Supporting Files */,
+			);
+			path = MadLibsTests;
+			sourceTree = "<group>";
+		};
+		E23FE1F01A705BFD001AE62F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23FE1F11A705BFD001AE62F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E23FE1DB1A705BFD001AE62F /* MadLibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23FE1F61A705BFD001AE62F /* Build configuration list for PBXNativeTarget "MadLibs" */;
+			buildPhases = (
+				E23FE1D81A705BFD001AE62F /* Sources */,
+				E23FE1D91A705BFD001AE62F /* Frameworks */,
+				E23FE1DA1A705BFD001AE62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadLibs;
+			productName = MadLibs;
+			productReference = E23FE1DC1A705BFD001AE62F /* MadLibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E23FE1EB1A705BFD001AE62F /* MadLibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23FE1F91A705BFD001AE62F /* Build configuration list for PBXNativeTarget "MadLibsTests" */;
+			buildPhases = (
+				E23FE1E81A705BFD001AE62F /* Sources */,
+				E23FE1E91A705BFD001AE62F /* Frameworks */,
+				E23FE1EA1A705BFD001AE62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23FE1EE1A705BFD001AE62F /* PBXTargetDependency */,
+			);
+			name = MadLibsTests;
+			productName = MadLibsTests;
+			productReference = E23FE1EC1A705BFD001AE62F /* MadLibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23FE1D41A705BFD001AE62F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Carl R Knox";
+				TargetAttributes = {
+					E23FE1DB1A705BFD001AE62F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E23FE1EB1A705BFD001AE62F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E23FE1DB1A705BFD001AE62F;
+					};
+				};
+			};
+			buildConfigurationList = E23FE1D71A705BFD001AE62F /* Build configuration list for PBXProject "MadLibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E23FE1D31A705BFD001AE62F;
+			productRefGroup = E23FE1DD1A705BFD001AE62F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23FE1DB1A705BFD001AE62F /* MadLibs */,
+				E23FE1EB1A705BFD001AE62F /* MadLibsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E23FE1DA1A705BFD001AE62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23FE1E41A705BFD001AE62F /* Images.xcassets in Resources */,
+				E23FE1E71A705BFD001AE62F /* MainMenu.xib in Resources */,
+				E23FE1FF1A705C44001AE62F /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23FE1EA1A705BFD001AE62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23FE1D81A705BFD001AE62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23FE1FE1A705C44001AE62F /* RootViewController.swift in Sources */,
+				E23FE1E21A705BFD001AE62F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23FE1E81A705BFD001AE62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23FE1F31A705BFD001AE62F /* MadLibsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23FE1EE1A705BFD001AE62F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23FE1DB1A705BFD001AE62F /* MadLibs */;
+			targetProxy = E23FE1ED1A705BFD001AE62F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E23FE1E51A705BFD001AE62F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23FE1E61A705BFD001AE62F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E23FE1F41A705BFD001AE62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E23FE1F51A705BFD001AE62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E23FE1F71A705BFD001AE62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E23FE1F81A705BFD001AE62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E23FE1FA1A705BFD001AE62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MadLibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadLibs.app/Contents/MacOS/MadLibs";
+			};
+			name = Debug;
+		};
+		E23FE1FB1A705BFD001AE62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MadLibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadLibs.app/Contents/MacOS/MadLibs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23FE1D71A705BFD001AE62F /* Build configuration list for PBXProject "MadLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23FE1F41A705BFD001AE62F /* Debug */,
+				E23FE1F51A705BFD001AE62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23FE1F61A705BFD001AE62F /* Build configuration list for PBXNativeTarget "MadLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23FE1F71A705BFD001AE62F /* Debug */,
+				E23FE1F81A705BFD001AE62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E23FE1F91A705BFD001AE62F /* Build configuration list for PBXNativeTarget "MadLibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23FE1FA1A705BFD001AE62F /* Debug */,
+				E23FE1FB1A705BFD001AE62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23FE1D41A705BFD001AE62F /* Project object */;
+}
